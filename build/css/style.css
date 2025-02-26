@@ -566,6 +566,9 @@
   .w-screen {
     width: 100vw;
   }
+  .max-w-\[70\%\] {
+    max-width: 70%;
+  }
   .max-w-\[80\%\] {
     max-width: 80%;
   }
