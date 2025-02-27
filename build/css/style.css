@@ -279,6 +279,9 @@
   .w-15 {
     width: calc(var(--spacing) * 15);
   }
+  .w-30 {
+    width: calc(var(--spacing) * 30);
+  }
   .w-\[200px\] {
     width: 200px;
   }
