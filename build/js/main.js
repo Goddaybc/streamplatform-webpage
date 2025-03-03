@@ -70,22 +70,22 @@ document.addEventListener("DOMContentLoaded", InitApp);
 // }
 // console.log(checkEligibility(16, true));
 
-function calculateBMI(weight, height) {
-  let bmi = weight / (height * height);
-  bmi = bmi.toFixed(2);
+// function calculateBMI(weight, height) {
+//   let bmi = weight / (height * height);
+//   bmi = bmi.toFixed(2);
 
-  let category;
+//   let category;
 
-  if (bmi < 18.5) {
-    category = "Underweight";
-  } else if (bmi >= 18.5 && bmi <= 24.9) {
-    category = "Normal weight";
-  } else if (bmi >= 25 && bmi <= 29.9) {
-    category = "Overweight";
-  } else {
-    category = "Obese";
-  }
+//   if (bmi < 18.5) {
+//     category = "Underweight";
+//   } else if (bmi >= 18.5 && bmi <= 24.9) {
+//     category = "Normal weight";
+//   } else if (bmi >= 25 && bmi <= 29.9) {
+//     category = "Overweight";
+//   } else {
+//     category = "Obese";
+//   }
 
-  return `Your BMI is ${bmi}. You are in the ${category} category.`;
-}
-console.log(calculateBMI(50, 1.6));
+//   return `Your BMI is ${bmi}. You are in the ${category} category.`;
+// }
+// console.log(calculateBMI(50, 1.6));

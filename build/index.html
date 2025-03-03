@@ -14,16 +14,13 @@
   <body class="min-h-screen dark:bg-black dark:text-white">
     <section class="bg-[#8338ec]">
       <header class="max-w-[80%] mx-auto sticky top-0 z-10 py-5">
-        <section class="flex items-center justify-between">
+        <section class="flex items-center justify-between md:gap-x-6">
           <h1>
             <a href="#" class="text-[#ffecd1] text-3xl">
               Vibe<span class="font-serif text-[#ffbe0b]">Flow</span>
             </a>
           </h1>
-          <nav
-            class="hidden md:flex md:text-3xl md:space-x-3 space-x-8 text-3xl"
-            aria-label="main"
-          >
+          <nav class="hidden sm:flex space-x-10 text-3xl" aria-label="main">
             <a href="#home" class="hover:opacity-90">Home</a>
             <a href="#about" class="hover:opacity-90">About</a>
             <a href="#contact" class="hover:opacity-90">Contact</a>
@@ -39,9 +36,9 @@
             </button>
           </div>
           <div
-            class="bg-white text-gray-500 p-2 rounded items-center gap-x-5 text-2xl ipad-mini:text-lg ipad-air:text-xl ipad-pro:text-2xl md:gap-x-3 hidden md:flex cursor-pointer"
+            class="bg-white text-gray-500 p-2 rounded items-center gap-x-10 text-2xl hidden sm:flex cursor-pointer"
           >
-            <p>Book a Demo</p>
+            <p class="md:text-[1rem]">Book a Demo</p>
             <p class="inline-block [transform:rotate(-30deg)] text-3xl">
               &rarr;
             </p>
@@ -70,24 +67,30 @@
     </section>
     <main class="">
       <section
-        class="max-w-[75%] mx-auto flex items-center flex-col-reverse md:flex-row justify-center py-4 widescreen:section-min-height tallscreen:section-min-height"
+        class="max-w-[80%] mx-auto flex flex-col-reverse py-3 sm:flex-row sm:justify-center sm:py-10"
       >
         <div>
-          <h1 class="md:text-5xl font-serif md:text-left text-center py-1">
+          <h1
+            class="sm:text-7xl text-3xl font-serif sm:text-left text-center py-0.5"
+          >
             Stream Sports.
           </h1>
-          <h1 class="md:text-5xl text-gray-400 md:text-left text-center py-1">
+          <h1
+            class="sm:text-6xl text-3xl text-gray-400 sm:text-left text-center py-1"
+          >
             Stream Audios.
           </h1>
-          <h1 class="md:text-5xl text-gray-400 md:text-left text-center py-1">
+          <h1
+            class="sm:text-6xl text-3xl text-gray-400 sm:text-left text-center py-1"
+          >
             Stream all videos.
           </h1>
-          <p class="md:text-5xl text-3xl py-4">Master Every Moment.</p>
-          <p class="text-xl py-6 md:text-xl">
+          <p class="sm:text-5xl text-3xl py-4">Master Every Moment.</p>
+          <p class="text-2xl py-6 sm:text-3xl">
             Experience everthing in 4K, making you feel like you are right there
             in the stands.
           </p>
-          <div class="flex items-center space-x-6">
+          <div class="flex items-center sm:space-x-6">
             <div
               class="flex bg-amber-50 p-1 text-black md:p-3 rounded cursor-pointer"
             >
@@ -95,7 +98,7 @@
                 <a href="#">Watch Live Now</a>
               </button>
               <p
-                class="inline-block [transform:rotate(-30deg)] md:text-3xl text-2xl"
+                class="inline-block [transform:rotate(-30deg)] sm:text-3xl text-2xl"
               >
                 &rarr;
               </p>
@@ -103,37 +106,33 @@
             <div class="flex items-center gap-5">
               <img src="./images/globe.png" class="w-15" alt="Globe" />
               <div>
-                <p class="text-sm md:text-xl">Powered By</p>
-                <p class="text-sm md:text-xl">VibeFlow Network</p>
+                <p class="text-sm sm:text-xl">Powered By</p>
+                <p class="text-sm sm:text-xl">VibeFlow Network</p>
               </div>
             </div>
           </div>
         </div>
         <div class="relative">
-          <img
-            src="./images/one.jpg"
-            class="w-[600px] rounded"
-            alt="Music-image"
-          />
+          <img src="./images/one.jpg" class="rounded" alt="Music-image" />
 
           <div
-            class="flex justify-between md:justify-between bg-[#0c2a4656] p-2"
+            class="flex justify-between sm:justify-between bg-[#0c2a4656] p-2"
           >
             <div>
-              <p class="md:text-4xl text-xl py-2 text-white font">2.2M+</p>
-              <p class="text-[#e2e6ee] md:text-xl">Peak Viewers</p>
+              <p class="sm:text-2xl py-2 text-white font">2.2M+</p>
+              <p class="text-[#e2e6ee] sm:text-xl">Peak Viewers</p>
             </div>
             <div>
-              <p class="md:text-4xl text-xl py-2 text-white font">4K HD</p>
-              <p class="text-[#e2e6ee] md:text-xl">Stream Quality</p>
+              <p class="sm:text-2xl text-xl py-2 text-white font">4K HD</p>
+              <p class="text-[#e2e6ee]">Stream Quality</p>
             </div>
             <div>
-              <p class="md:text-4xl text-xl py-2 text-white font">250K+</p>
-              <p class="text-[#e2e6ee] md:text-xl">New Subscribers</p>
+              <p class="sm:text-2xl:text-xl py-2 text-white font">250K+</p>
+              <p class="text-[#e2e6ee]">New Subscribers</p>
             </div>
           </div>
           <div
-            class="bg-white text-gray-700 w-[200px] h-[120px] p-3 rounded-xl absolute md:absolute top-20 -translate-x-20 hidden md:flex md:flex-col"
+            class="bg-white text-gray-700 w-[200px] h-[120px] p-3 rounded-xl absolute sm:absolute top-20 -translate-x-20 hidden sm:flex sm:flex-col"
           >
             <div class="flex justify-between">
               <p class="text-[#6f686c]">Network Growth</p>
@@ -158,7 +157,7 @@
             <p class="pt-4 text-[#9e9fa1]">New Nodes Deployed</p>
           </div>
           <div
-            class="absolute top-8 -right-0 translate-x-15 bg-[#465db9cc] p-3 hidden md:flex md:flex-col"
+            class="absolute top-8 -right-0 translate-x-15 bg-[#465db9cc] p-3 hidden sm:flex sm:flex-col"
           >
             <div>
               <p>Global Viewers</p>
